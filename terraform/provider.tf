@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "my-bucket-tf-file"
-    key = "henryit/tf-deployment/d010624-ECS.tfstate"
+    bucket = "teamusa-test-bucket"
+    key = "demo/tf-deployment/d010624-ECS.tfstate"
     region = "us-east-2"
   }
   required_providers {
