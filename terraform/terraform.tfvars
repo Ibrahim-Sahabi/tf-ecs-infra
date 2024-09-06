@@ -1,10 +1,10 @@
 region       = "us-east-2"
 short_region = "use2"
-account_name = "henryit"
+account_name = "ibrahim sahabi"
 
 tags = {
-  AccountName = "henryit"
-  Owner       = "slypee1881@gmail.com"
+  AccountName = "ibrahim sahabi"
+  Owner       = "isahabi@yahoo.com"
   Terraform   = true
   Department  = "Training"
   Project     = "DevOps"
