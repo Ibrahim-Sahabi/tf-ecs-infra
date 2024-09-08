@@ -10,7 +10,7 @@ variable "tags" {
 variable "name" {
   description = "Account name to use in naming resources"
   type        = string
-  default     = "henryit"
+  default     = "sahabicloud"
 }
 
 variable "short_region" {
@@ -44,15 +44,15 @@ variable "vpc_subnets_map" {
 #################################################################
 variable "zone_id" {
   type    = string
-  default = "Z0779186ZSKCCJSF6FDW"
+  default = ""
 }
 
 variable "zone_name" {
   type    = string
-  default = "henryit.net"
+  default = ""
 }
 
 variable "domain_name" {
   type    = string
-  default = "henryit.net"
+  default = ""
 }

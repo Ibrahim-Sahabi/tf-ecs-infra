@@ -1,6 +1,6 @@
 # module "ecs" {
 #   source              = "../modules/tf-ecs"
-#   name                = "jomacsit"
+#   name                = "sahabicloud"
 #   account_id          = var.account_id
 #   account_name        = var.account_name
 #   aws_region          = var.region
@@ -9,7 +9,7 @@
 #   private_subnet_ids  = local.private_subnet_ids
 #   public_subnets_ids  = local.public_subnet_ids
 #   ssl_certificate_arn = data.aws_ssm_parameter.certificate_arn.value
-#   container_name      = "jomacsit"
+#   container_name      = "sahabicloud"
 #   image               = "chriscloudaz/netflix:latest" #"213939666921.dkr.ecr.us-west-2.amazonaws.com/jomacsit"
 #   app_port            = 80
 #   app_count           = 2
