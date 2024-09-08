@@ -1,5 +1,5 @@
-# module "ecr" {
-#     source = "../modules/tf-ecr"
-#     ecr_name = "sahabicloud"
-# }
+module "ecr" {
+    source = "../modules/tf-ecr"
+    ecr_name = "sahabicloud"
+}
 
