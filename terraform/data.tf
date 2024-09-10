@@ -14,7 +14,7 @@ data "aws_ssm_parameter" "vpc_cidr" {
   name = "/${var.name}/${var.short_region}/vpc/cidr_block"
 }
 
-data "aws_ssm_parameter" "certificate_arn" {
-    name = "/${var.name}/global/acm/certificate/arn" 
-}
+# data "aws_ssm_parameter" "certificate_arn" {
+#     name = "/${var.name}/global/acm/certificate/arn" 
+# }
 
